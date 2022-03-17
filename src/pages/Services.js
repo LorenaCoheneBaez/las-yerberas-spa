@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Services() {
   return (
     <div>
+      <h2>Servicios</h2>
       <CardGroup>
         <Card>
           <Card.Img
@@ -14,7 +15,7 @@ export default function Services() {
             alt="Tratamiento descontacturante"
           />
           <Card.Body>
-            <Card.Title>Tratamiento descontacturante</Card.Title>
+            <Card.Title>Descontacturante</Card.Title>
             <Card.Text>
               Relaja la musculatura y disuelve las contracturas que se producen
               por el estrés, las malas posturas, la falta de descanso o una vida
@@ -30,7 +31,7 @@ export default function Services() {
             alt="Masajes relajantes"
           />
           <Card.Body>
-            <Card.Title>Masajes relajantes</Card.Title>
+            <Card.Title>Relajantes</Card.Title>
             <Card.Text>
               Alivia la tensión y consigue un estado mental de relajación. Se
               realiza en pies, piernas y espalda.
@@ -45,7 +46,7 @@ export default function Services() {
             alt="Masaje Ayurveda con pindas"
           />
           <Card.Body>
-            <Card.Title>Masaje Ayurveda con pindas</Card.Title>
+            <Card.Title>Ayurveda con pindas</Card.Title>
             <Card.Text>
               Es una antigua medicina hindú. Aporta hidratación, desintoxicación, relajación, y descongestión, por el uso de hierbas aromáticas y aceites esenciales calientes
             </Card.Text>
@@ -63,7 +64,7 @@ export default function Services() {
          
           />
           <Card.Body>
-            <Card.Title>Tratamiento con ventosas chinas</Card.Title>
+            <Card.Title>Ventosas chinas</Card.Title>
             <Card.Text>
               Elimina el dolor de espalda, causado por tensión o contracturas. Además es un excelente complemento en el tratamiento contra la celulitis.
             </Card.Text>
@@ -71,7 +72,7 @@ export default function Services() {
         </Card>
       
         <Card>
-          <Card.Img
+          <Card.Img 
             variant="top"
             src="../../assets/maderoterapia.jpg"
             alt="Maderoterapia"

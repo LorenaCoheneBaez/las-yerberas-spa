@@ -1,6 +1,11 @@
 @import '_settings';
 
-h1, p{
+*{
   font-family: $font-primary;
+}
+
+a:hover{
+  text-decoration: underline;
+  font-weight: $title-font-weight;
 }
 

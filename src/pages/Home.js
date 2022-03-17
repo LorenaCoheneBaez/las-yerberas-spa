@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../components/Header'
+
 
 export default function Home() {
   return (
     <div>
-      <Header/>
-      <h1>Home DM Sans</h1>
-      <p>lorem ipsum lorem prem sdjhsdfnmvgfgdfg.</p>
+      <h1>Bienvenid@s a Masoterapia Las Yerberas</h1>
+      <p>SOY EL HOME.</p>
+      <img className='border border-danger banner-home' src='../../assets/banner-masaje.jpg' alt='banner-masaje'/>
     </div>
   )
 }
