@@ -25,21 +25,21 @@ export const services_db =
     "id": 4,
     "title": "Tratamiento con ventosas chinas",
     "description": "Elimina el dolor de espalda, causado por tensión o contracturas. Además es un excelente complemento en el tratamiento contra la celulitis.",
-    "img": "ventosas.jpg",
+    "img": "ventosachina.jpg",
     "price": 1
   },
   {
     "id": 5,
     "title": "Maderoterapia",
     "description": "Activa la circulación sanguínea y linfática. Reduce centímetros, elimina la celulitis, moldea el cuerpo, reafirma y tonifica la piel",
-    "img": "madero.jpg",
+    "img": "maderoterapia.jpg",
     "price": 1
   },
   {
     "id": 6,
     "title": "Fangoterapia",
     "description": "Reduce el acné, las manchas y la oleosidad de la piel. Limpia, tonifica, hidrata y da luminosidad.",
-    "img": "fango.jpg",
+    "img": "fangoterapia.jpg",
     "price": 1
   }
 ]
