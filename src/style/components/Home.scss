@@ -1,28 +1,57 @@
-h1 {
+.home{
+  h1, h3{
   font-weight: $title-font-weight;
-  background-color: $primary-color;
+  font-size: 1.125rem;
+  margin-bottom: 15px;
 }
-
-p {
-  background-color: $secondary-color;
+h3{
+  margin-top: 15px;
 }
-
-p,
-h6 {
+#list-group-item{
+  list-style: disc;
   font-weight: $body-font-weight;
-  font-size: 16px;
+}
+#banner{
+  height:100px;
+  background-image: url('../../../public/assets/banner-masaje.jpg');
+  background-color: #fc1212;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-h6 {
-  background-color: #f1cbb5;
+.focus-in-expand {
+  color: #f3c3a7;
+  font-size: 1.125rem;
+  font-weight: bold;
+	-webkit-animation: focus-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 5 both;
+	        animation: focus-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2 both;
 }
 
-h2 {
-  font-size: 32px;
-  background-color: #f9e9e0;
+
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 }
 
-
-.banner-home{
-  width: 100%;
-}
