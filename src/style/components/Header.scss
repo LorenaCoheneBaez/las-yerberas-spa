@@ -13,9 +13,20 @@ header {
 #navBar-header {
   justify-content: flex-end;
 }
+@media (min-width: 481px) {
+.navegacion{
+    font-size: 18px;
+  }
+  .logo-header {
+    width: 50%;
+  }
+}
 
 @media (min-width: 769px) {
   .logo-header {
-    width: 25%;
+    width: 30%;
+  }
+  .navegacion{
+    font-size: 18px;
   }
 }

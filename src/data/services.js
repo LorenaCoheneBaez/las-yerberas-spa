@@ -16,14 +16,14 @@ export const services_db =
   },
   {
     "id": 3,
-    "title": "Masaje Ayurveda con pindas",
+    "title": "Ayurveda con pindas",
     "description": "Es una antigua medicina hindú. Aporta hidratación, desintoxicación, relajación, y descongestión, por el uso de hierbas aromáticas y aceites esenciales calientes",
     "img": "pindas.jpg",
     "price": 1
   },
   {
     "id": 4,
-    "title": "Tratamiento con ventosas chinas",
+    "title": "Ventosas chinas",
     "description": "Elimina el dolor de espalda, causado por tensión o contracturas. Además es un excelente complemento en el tratamiento contra la celulitis.",
     "img": "ventosachina.jpg",
     "price": 1

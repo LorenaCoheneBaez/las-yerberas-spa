@@ -1,15 +1,29 @@
-@import '_settings';
+@import "_settings";
 
-*{
+* {
   font-family: $font-primary;
 }
 
-a:hover{
+h1,
+h2,
+h3,
+h4,
+h5,
+.h5 {
+  font-weight: $title-font-weight !important;
+  font-size: 1.125rem;
+}
+
+a:hover {
   text-decoration: underline;
   font-weight: $title-font-weight;
 }
 
-main{
+main {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.bi-flower1{
+   color: #f3c3a7;
 }

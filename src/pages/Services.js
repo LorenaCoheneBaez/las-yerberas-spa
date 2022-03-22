@@ -18,7 +18,7 @@ export default function Services() {
               alt={element.title}
             />
             <Card.Body>
-              <Card.Title>{element.title}</Card.Title>
+              <Card.Title><i className="bi bi-flower1 "></i> {element.title}</Card.Title>
               <Card.Text>
                 {element.description}
               </Card.Text>
@@ -38,7 +38,7 @@ export default function Services() {
               alt={element.title}
             />
             <Card.Body>
-              <Card.Title>{element.title}</Card.Title>
+              <Card.Title> <i className="bi bi-flower1 "></i> {element.title}</Card.Title>
               <Card.Text>
                 {element.description}
               </Card.Text>

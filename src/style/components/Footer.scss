@@ -1,0 +1,15 @@
+footer{
+   width: 100%;
+  background-color: $secondary-color;
+  .btn-arriba{
+      font-size: 1rem;
+      color: #6c997c;
+  }&:hover {
+    text-decoration: underline;
+    color: #6c997c;
+  }
+.nav-link:focus, .nav-link:hover{
+    text-decoration: underline;
+    color: #6c997c;
+}
+}

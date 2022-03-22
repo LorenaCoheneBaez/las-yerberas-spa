@@ -7,6 +7,7 @@ import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
+import Btnwhatsapp from './components/Btnwhatsapp';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </Routes>
         </BrowserRouter>
       </main>
+      <Btnwhatsapp/>
       <Footer/>
     </div>
   );
