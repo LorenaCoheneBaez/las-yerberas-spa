@@ -10,7 +10,7 @@
     margin: 1.25rem;
     height: 10rem;
     background-image: url("../../../public/assets/banner-masaje.jpg");
-    background-color: #f3c3a7;
+    background-color: $accent-color;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -18,7 +18,7 @@
   }
 
   .focus-in-expand {
-    color: #f3c3a7;
+    color: $accent-color;
     font-size: 1.125rem;
     -webkit-animation: focus-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) 5
       both;
@@ -52,51 +52,51 @@
   #list-group-item {
     font-weight: $body-font-weight;
   }
- 
-  .columna-gif{
+
+  .columna-gif {
     display: flex;
   }
   .gif {
     margin: 1.5625rem;
     width: 55vh;
   }
-  @media only screen and (min-width: 481px){
+  @media only screen and (min-width: 481px) {
     h1,
     .focus-in-expand {
-    font-size: 1.9rem;
-  }
-  .list-group-item{
-    font-size: 1.125rem;
-  }
-  .gif{
-    margin: 1.25rem auto;
+      font-size: 1.9rem;
+    }
+    .list-group-item {
+      font-size: 1.125rem;
+    }
+    .gif {
+      margin: 1.25rem auto;
       width: 80vh;
     }
-}
+  }
   @media only screen and (min-width: 769px) {
     h1,
     .focus-in-expand {
-    font-size: 1.9rem;
-  }
-  h3{
-    font-size: 1.5rem;
-  }
-  #banner{
-    height: 15rem;
-  }
-  .titulo-banner{
-    padding: 1.9rem;
-  }
-  .focus-in-expand{
-    margin-top: 1.35rem;
-  }
-  .seccion-beneficios {
+      font-size: 1.9rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    #banner {
+      height: 15rem;
+    }
+    .titulo-banner {
+      padding: 1.9rem;
+    }
+    .focus-in-expand {
+      margin-top: 1.35rem;
+    }
+    .seccion-beneficios {
       display: flex;
       flex-direction: row-reverse;
       justify-content: space-around;
       margin-bottom: 1.25rem;
     }
-    .gif{
+    .gif {
       margin-right: 0.6rem;
       width: 70vh;
     }

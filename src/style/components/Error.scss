@@ -1,0 +1,36 @@
+#error {
+  height: 35rem;
+  background-image: url("../../../public/assets/masaje-2.jpg");
+  background-color: $accent-color;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+#container-error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  padding: 15%;
+}
+.title-error {
+  color: $white;
+  text-shadow: 1px 1px 2px gray;
+  font-size: 1.125rem;
+}
+#btn-error:hover {
+  background-color: $accent-color;
+  border-color: $accent-color;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+@media only screen and (min-width: 768px) {
+  #error {
+    height: 100vh;
+  }
+  .title-error {
+    font-size: 1.375rem;
+  }
+}

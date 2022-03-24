@@ -8,6 +8,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
 import Btnwhatsapp from './components/Btnwhatsapp';
+import Btninsta from './components/Btninsta';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         </BrowserRouter>
       </main>
       <Btnwhatsapp/>
+      <Btninsta/>
       <Footer/>
     </div>
   );

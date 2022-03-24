@@ -1,15 +1,17 @@
 footer{
+  margin-top: 1.5625rem;
+  padding: 1.5625rem;
    width: 100%;
   background-color: $secondary-color;
   .btn-arriba{
       font-size: 1rem;
-      color: #6c997c;
+      color: $tertiary-color
   }&:hover {
     text-decoration: underline;
-    color: #6c997c;
+    color: $tertiary-color
   }
 .nav-link:focus, .nav-link:hover{
     text-decoration: underline;
-    color: #6c997c;
+    color: $tertiary-color
 }
 }

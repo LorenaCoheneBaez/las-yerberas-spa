@@ -7,11 +7,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Services() {
   return (
-    <div>
+    <div id="services">
       <h2>Servicios</h2>
       <CardGroup>
         {services_db.map((element, i) => {
-          return i < 3 ? <Card key={i}>
+          return i < 3 ? <Card key={i} className="zoom">
             <Card.Img
               variant="top"
               src={`../../assets/${element.img}`}
@@ -31,7 +31,7 @@ export default function Services() {
 
       <CardGroup>
         {services_db.map((element, i) => {
-          return i >= 3 ? <Card key={i}>
+          return i >= 3 ? <Card key={i} className="zoom">
             <Card.Img
               variant="top"
               src={`../../assets/${element.img}`}
