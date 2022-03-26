@@ -28,7 +28,7 @@ export default function Header() {
                 <Nav.Link className='navegacion' as={Link} to="/about" >Sobre mí</Nav.Link>
                 <NavDropdown title="Contacto" id="nav-dropdown" className='navegacion'>
                   <NavDropdown.Item eventKey="4.1" as={Link} to="/contact">Contacto</NavDropdown.Item>
-                  <NavDropdown.Item eventKey="4.2" href="#mapa">¿Dónde estoy?</NavDropdown.Item>
+                  <NavDropdown.Item eventKey="4.2" as={Link} to="/contact#mapa">¿Dónde estoy?</NavDropdown.Item>
                  
                 </NavDropdown>
                
