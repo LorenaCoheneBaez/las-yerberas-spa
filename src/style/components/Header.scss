@@ -1,0 +1,32 @@
+header {
+  width: 100%;
+  background-color: $secondary-color;
+  padding: 0.625rem;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+}
+.logo-header {
+  width: 65%;
+  border-radius: 5%;
+}
+
+#navBar-header {
+  justify-content: flex-end;
+}
+@media (min-width: 481px) {
+.navegacion{
+    font-size: 18px;
+  }
+  .logo-header {
+    width: 50%;
+  }
+}
+
+@media (min-width: 769px) {
+  .logo-header {
+    width: 30%;
+  }
+  .navegacion{
+    font-size: 18px;
+  }
+}
