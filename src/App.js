@@ -13,9 +13,9 @@ import Btninsta from './components/Btninsta';
 function App() {
   return (
     <div className="App">
+        <BrowserRouter>
       <Header/>
       <main>
-        <BrowserRouter>
         <Routes>
             <Route path="/" element= {<Home/>}/>
             <Route path="/services" element={ <Services/>}/>
@@ -23,10 +23,10 @@ function App() {
             <Route path="/contact" element={ <Contact/>}/>
             <Route path="/*" element={ <Error/>}/>
         </Routes>
-        </BrowserRouter>
       <Btnwhatsapp/>
       <Btninsta/>
       </main>
+        </BrowserRouter>
       <Footer/>
     </div>
   );
