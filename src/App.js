@@ -10,6 +10,7 @@ import Error from './pages/Error';
 import Btnwhatsapp from './components/Btnwhatsapp';
 import Btninsta from './components/Btninsta';
 
+
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,6 @@ function App() {
             <Route path="/services" element={ <Services/>}/>
             <Route path="/about" element={ <About/>}/>
             <Route path="/contact" element={ <Contact/>}/>
-            <Route path="/#mapa" element={ <Contact/>}/>
             <Route path="/*" element={ <Error/>}/>
         </Routes>
       <Btnwhatsapp/>

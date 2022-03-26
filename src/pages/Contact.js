@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Mapa from '../components/Mapa';
 
 export default function Contact() {
   const form = useRef();
@@ -42,12 +43,7 @@ export default function Contact() {
               <button type="submit" id="button" className="d-grid gap-2 col-6 mx-auto btn-submit" value="Send">ENVIAR</button>
             </Form>
 </section>
-          <section className='mt-4'>
-            <h2 id='mapa'>¿Dónde estoy?</h2>
-                      <p><i className="bi bi-geo-alt-fill"></i> José C. Paz</p>
-                      <p><i className="bi bi-geo-alt-fill"></i> Garín</p>
-            <iframe title='map' id='map' src="https://www.google.com/maps/d/embed?mid=1NvM-ctXlTN7B22ClQYFipM7fMexNlyHT&ehbc=2E312F"></iframe>
-          </section>
+          <Mapa/>
         </Col>
       </Row>
     </Container>
