@@ -4,7 +4,7 @@
 
 ## Para ver el proyecto 🚀:
 
-## <a href="https://lasyerberasmasoterapia.netlify.app/">Hacer click aquí</a>
+ <a href="https://lasyerberasmasoterapia.netlify.app/" target="_blank">Hacer click aquí</a>
 
 
 ## Objetivo 📋:
