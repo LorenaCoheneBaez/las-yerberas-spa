@@ -1,4 +1,4 @@
-import './App.css';
+import './style/index.scss'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Header from '../src/components/Header'
 import Footer from '../src/components/Footer'
@@ -24,9 +24,9 @@ function App() {
             <Route path="/*" element={ <Error/>}/>
         </Routes>
         </BrowserRouter>
-      </main>
       <Btnwhatsapp/>
       <Btninsta/>
+      </main>
       <Footer/>
     </div>
   );

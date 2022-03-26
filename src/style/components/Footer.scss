@@ -1,17 +1,52 @@
-footer{
+#footer {
+  color: $tertiary-color;
   margin-top: 1.5625rem;
-  padding: 1.5625rem;
-   width: 100%;
+  padding: 1.5625rem 1.5625rem 8rem;
+  width: 100%;
   background-color: $secondary-color;
-  .btn-arriba{
-      font-size: 1rem;
-      color: $tertiary-color
-  }&:hover {
-    text-decoration: underline;
-    color: $tertiary-color
+  text-decoration: none;
+  .redes-footer {
+    display: flex;
+    flex-direction: column;
   }
-.nav-link:focus, .nav-link:hover{
-    text-decoration: underline;
-    color: $tertiary-color
-}
+  .redes {
+    color: #773fd89f;
+    font-size: 1.9rem;
+    &:hover {
+      color: $accent-color;
+    }
+  }
+  .mercado-pago {
+    font-weight: bold;
+  }
+  .icono-mercado-pago {
+    width: 45%;
+  }
+  .btn-arriba {
+    color: inherit;
+    &:hover {
+      text-decoration: underline;
+      color: inherit;
+    }
+    &:focus {
+      text-decoration: underline;
+      color: inherit;
+    }
+  }
+  .dev {
+    padding-left: 0;
+  }
+  @media only screen and (min-width: 767px) {
+    padding-top: 0.8rem;
+    padding-bottom: 1.5625rem;
+    font-size: 1.25rem;
+    .icono-mercado-pago {
+      width: 20%;
+    }
+    .redes-footer {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+    }
+  }
 }

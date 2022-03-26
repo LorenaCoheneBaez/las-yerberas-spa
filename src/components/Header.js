@@ -11,7 +11,7 @@ export default function Header() {
         <Container className="d-flex">
           <a href="/" className='col-6'>
             <img
-              src="/logo192.jpg"
+              src="/logo192.png"
               className="d-inline-block align-top logo-header"
               alt="Las yerberas logo"
             />
