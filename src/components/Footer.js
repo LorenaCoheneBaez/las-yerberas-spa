@@ -1,14 +1,8 @@
 import React from 'react'
-
 import Nav from 'react-bootstrap/Nav'
 export default function Footer() {
   return (
     <footer id='footer'>
-      <section>
-        <p className="mercado-pago">Pago seguro con 
-        <img className='icono-mercado-pago' src="../../assets/mercado-pago.png" alt="Icono Mercado Pago"/>
-        </p>
-      </section>
       <section>
         <Nav className="flex-column">
          <div className='redes-footer'>

@@ -1,5 +1,7 @@
 import React from 'react';
-import { benefits } from '../data/benefits'
+import { benefits } from '../data/benefits';
+import { Link } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
 
 const subtitulo = ["BIENESTAR", "RELAJACIÓN", "SALUD"]
 
@@ -27,12 +29,14 @@ export default function Home() {
             )}
           </ul>
         </div>
-       
-      <div className='columna-gif'>
-        <img className='gif' src="../../assets/giftcard.gif" alt="promo gift card" />
-      </div>
+
+        <div className='columna-gif'>
+          <Nav.Link as={Link} to="/contact">
+            <img className='gif' src="../../assets/giftcard.gif" alt="promo gift card" />
+          </Nav.Link>
+        </div>
       </section>
-     
+
     </div>
   )
 }
