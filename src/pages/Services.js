@@ -12,7 +12,7 @@ export default function Services() {
       <CardGroup>
         {services_db.map((element, i) => {
           return i < 3 ? <Card key={i} className="zoom">
-            <Card.Img
+            <Card.Img loading='eager'
               variant="top"
               src={`../../assets/${element.img}`}
               alt={element.title}
@@ -32,7 +32,7 @@ export default function Services() {
       <CardGroup>
         {services_db.map((element, i) => {
           return i >= 3 ? <Card key={i} className="zoom">
-            <Card.Img
+            <Card.Img loading='lazy'
               variant="top"
               src={`../../assets/${element.img}`}
               alt={element.title}

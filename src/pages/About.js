@@ -7,7 +7,7 @@ export default function About() {
       <div className="card mb-3" >
         <div className="row g-0">
             <div className="col-md-4">
-              <img src="../../assets/about-img.png" className="img-fluid rounded-start" alt="Imagen acerca de mí"/>
+            <img loading='lazy' src="../../assets/about-img.png" className="img-fluid rounded-start" id='about-img' alt="Imagen acerca de mí"/>
             </div>
           <div className="col-md-8">
             <div className="card-body">

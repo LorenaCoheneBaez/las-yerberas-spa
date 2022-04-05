@@ -26,7 +26,7 @@ export default function Contact() {
       <Row className="justify-content-md-center">
         <Col sm={8}>
           <section className='my-3'>
-              <h2>Contacto:</h2>
+              <h2 id='contacto'>Contacto:</h2>
             <Form size="sm" ref={form} onSubmit={sendEmail}>
               <Form.Group className="mb-3" >
                 <Form.Label><h5>Nombre y apellido:</h5></Form.Label>

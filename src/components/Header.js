@@ -25,7 +25,8 @@ export default function Header() {
                 <Nav.Link className='navegacion'
                   as={Link} to="/services">Servicios</Nav.Link>
                 <Nav.Link className='navegacion' as={Link} to="/about" >Sobre mí</Nav.Link>
-                <Nav.Link className='navegacion' as={Link} to="/contact">Contacto</Nav.Link>               
+                  <Nav.Link eventKey="4.1" className='navegacion' as={Link} to="/contact">Contacto</Nav.Link>
+
               </Nav>
             </Navbar.Collapse>
        </div>

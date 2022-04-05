@@ -29,14 +29,12 @@ export default function Home() {
             )}
           </ul>
         </div>
-
         <div className='columna-gif'>
           <Nav.Link as={Link} to="/contact">
-            <img className='gif' src="../../assets/giftcard.gif" alt="promo gift card" />
+            <img loading='lazy' className='gif' src="../../assets/giftcard.gif" alt="promo gift card" />
           </Nav.Link>
         </div>
       </section>
-
     </div>
   )
 }
