@@ -2,11 +2,6 @@
 # Masoterapia Las yerberas (Single Page Application)
 <img src="./public/logo512.jpg" alt="Logo Las Yerberas" width="200"/>
 
-## Para ver el proyecto 🚀:
-
- <a target="_blank" href="https://lasyerberasmasoterapia.netlify.app/" >Hacer click aquí</a>
-
-
 ## Objetivo 📋:
 
 Realizar una Single Page Application con React Js, para el servicio de masoterapia "Las Yerberas".
